@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+<form id="user" method="post" action="">
+	<div>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username"></input>
+		<span class="error">This field is required</span>
+	</div>
+	<div>
+		<label for="passwrod">Password:</label>
+		<input type="password" id="password" name="password"></input>
+		<span class="error">A valid password is required</span>				
+	</div>
+	<div>
+		<label for="phone_no">Phone Number:</label>
+		<input type="text" id="phone_no" name="phone_no"></input>
+		<span class="error">A valid phone number is required</span>								
+	</div>
+	<div id="submit">				
+		<button id="sub" type="button">Submit</button>
+	</div>
+    <div id="validate">
+        <button id="sub" type="button">Validate</button>
+     </div>
+    <div id="msg">				
+		<p></p>
+	</div>
+</form>
+
+</body>
+</html>

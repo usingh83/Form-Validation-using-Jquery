@@ -1,0 +1,32 @@
+#user label{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+#submit{
+	padding-left: 100px;
+}
+#validate
+{
+	padding-left: 100px;
+}
+#user div{
+	margin-top: 1em;
+}
+
+.error{
+	display: none;
+	margin-left: 10px;
+}		
+
+.error_show{
+	color: red;
+	margin-left: 10px;
+}
+input.invalid{
+	border: 2px solid red;
+}
+
+input.valid{
+	border: 2px solid green;
+}
